@@ -6,6 +6,8 @@ to [1 2 3] then w must be equal to [3 2 1]. You are not allowed to use the built
 %}
 
 function w = flip_it(v)
-w=v(end:-1:1);
+
+	w = v(end:-1:1);
+
 end
 

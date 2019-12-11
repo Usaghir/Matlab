@@ -9,6 +9,7 @@ those elements of M that are in even rows and columns. In other words, it would 
 %}
 
 function EM = even_index( M )
-EM=M(2:2:end,2:2:end);
+
+	EM = M(2:2:end,2:2:end);
 end
 

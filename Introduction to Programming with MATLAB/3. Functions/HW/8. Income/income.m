@@ -6,7 +6,9 @@ in a week assuming a 6-day work week and two 8-hour long shifts per day.
 
 %}
 
-function Q= intquard(n,m)
-Q=[zeros(n,m),ones(n,m);ones(n,m)*2,ones(n,m)*3];
+function Q = intquard(n,m)
+
+Q = [zeros(n,m), ones(n,m); ones(n,m) * 2,ones(n,m) * 3];
+ 
 end
 

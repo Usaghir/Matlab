@@ -7,8 +7,9 @@ Assume that the speed of light is 300,000 km/s and that one mile equals 1.609 km
 
 %}
 
-function [T,DM] = light_speed(D )
-T=(D/300000)/60;
-DM=D./1.609;
+function [T,DM] = light_speed(D)
+
+	T = (D/300000)/60;
+	DM = D./1.609;
 end
 

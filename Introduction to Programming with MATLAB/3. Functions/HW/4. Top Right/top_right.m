@@ -6,6 +6,7 @@ right corner of N.
 %}
 
 function a = top_right( N,n )
-a= N(1:n,end-n+1:end);
+
+	a = N(1:n,end-n+1:end);
 end
 

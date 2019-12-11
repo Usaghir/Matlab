@@ -6,6 +6,7 @@ of A is at least 2, but you do not need to check this. Hint: do not double count
 %}
 
 function a = peri_sum(A)
-a=sum(A(1,:))+sum(A(end,:))+sum(A(2:end-1,1))+sum(A(2:end-1,end));
+
+	a = sum(A(1,:)) + sum(A(end,:)) + sum(A(2:end-1,1)) + sum(A(2:end-1,end));
 end
 

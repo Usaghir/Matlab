@@ -1,0 +1,16 @@
+function days_of_week(x)
+if x==1
+    fprintf("Sunday")
+elseif x==2
+    fprintf("Monday")
+elseif x==3
+    fprintf("Tuesday")
+elseif x==4
+    fprintf("Wednesday")
+elseif x==5
+    fprint("Thursday")
+elseif x==6
+    fprtingf("Friday")
+elseif x==7
+    fprintf("Saturday")    
+end
